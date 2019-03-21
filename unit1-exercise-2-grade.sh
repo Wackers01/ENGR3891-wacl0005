@@ -4,7 +4,6 @@ if [ "x$1" == "x" ]; then
 fi
 
 if [ -e exercise2.txt ]; then rm -f exercise2.txt; fi
-if [ -e unit1exercise2.tgz ]; then rm -f unit1exercise2.tgz; fi
 # 1. Run script
 bash $1
 # 2. Get contents of tar ball, and sort them, and exclude time stamps

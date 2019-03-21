@@ -4,8 +4,6 @@ if [ "x$1" == "x" ]; then
 fi
 
 if [ -e exercise2.txt ]; then rm -f exercise2.txt; fi
-# 1. Run script
-bash $1
 # 2. Get contents of tar ball, and sort them, and exclude time stamps
 tar ztvf unit1-solution2.tgz | cut -c1-30,48- | LC_COLLATE=C sort > exercise2.txt
 # 3. Compare output with template.

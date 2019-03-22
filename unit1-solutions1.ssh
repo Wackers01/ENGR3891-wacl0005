@@ -1,0 +1,20 @@
+#1 /bin/bash
+mkdir -m ausrabarbtete
+mkdir -m ausgefahrung
+mkdir -m ensinner
+mkdir -m belaufung
+mkdir -m gestehtete
+mkdir -m einhunder
+mkdir -m ausgehaltt
+mkdir -m auflaufst
+mkdir -p -m ausrabarbtete/enhaltheit
+mkdir -v -p -m auflaufst/ausgefahren
+mkdir -p -m belaufung/gehaltst
+mkdir -p -m auflaufst/ausgefahren/angekaest
+mkdir -p -m ausrabarbtete/enhaltheit/ausgewitzete
+mkdir -p -m auflaufst/ausgefahren/aufschmeckung
+mkdir -p -m auflaufst/ausgefahren/gespracht
+mkdir -p -m belaufung/gehaltst/zerwarft
+mkdir -p -m auflaufst/ausgefahren/angekaest
+mkdir -p -m belaufung/enwarfkeit/ausfahrte
+

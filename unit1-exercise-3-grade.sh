@@ -15,10 +15,10 @@ outputpoints=$((60 - deduct))
 # Size points only apply if you can get 100% on the correctness.
 sizepoints=0
 size=`cat $1 | wc -c`
-if [ $size -le 2299 ]; then sizepoints=5; fi
-if [ $size -le 1740 ]; then sizepoints=15; fi
-if [ $size -le 1182 ]; then sizepoints=25; fi
-if [ $size -le 1004 ]; then sizepoints=40; fi
+if [ $size -le 2443 ]; then sizepoints=5; fi
+if [ $size -le 1844 ]; then sizepoints=15; fi
+if [ $size -le 1246 ]; then sizepoints=25; fi
+if [ $size -le 1059 ]; then sizepoints=40; fi
 if [ $differentlines -gt 0 ]; then sizepoints=0; fi
 
 echo "Correctness points: $outputpoints"

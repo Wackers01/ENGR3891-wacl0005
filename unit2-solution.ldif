@@ -1,0 +1,137 @@
+dn: dc=nodomain
+objectClass: top
+objectClass: DcObject
+objectClass: organization
+o:nodomain
+dc:nodomain
+
+
+
+
+dn: dc=Conglomerated Exports, dc=nodomain
+dc: Conglomerated Exports
+objectClass: dcObject
+objectClass: organization
+o: Conglomerated Exports.
+
+dn: ou=Pest control, dc=Conglomerated Exports, dc=nodomain
+objectClass: organizationalUnit
+ou: Pest control
+
+dn: ou=Diabolical schemes, ou=Pest control, dc=Conglomerated Exports, dc=nodomain
+changetype: add
+objectClass: organizationalUnit
+ou: Diabolical schemes
+
+
+
+
+
+
+dn: dc=Universal Resources, dc=nodomain
+dc: Universal Resources
+objectClass: dcObject
+objectClass: organization
+o: Universal Resources.
+
+dn: ou=Interplanetary exploration,dc=Universal Resources, dc=nodomain
+changetype: add
+objectClass: organizationalUnit
+ou: Interplanetary exploration
+
+dn: ou=Environmental protection, ou=Interplanetary exploration, dc=Universal Resources, dc=nodomain
+changetype: add
+objectClass: organizationalUnit
+ou: Environmental protection
+
+
+
+
+
+
+dn: dc=Trans-Urannic Outsourcing, dc=nodomain
+dc: Trans-Urannic Outsourcing
+objectClass: dcObject
+objectClass: organization
+o: Trans-Urannic Outsourcing.
+
+
+dn: ou=Interplanetary exploration, dc=Trans-Urannic Outsourcing, dc=nodomain
+changetype: add
+objectClass: organizationalUnit
+ou:Interplanetary exploration
+
+
+dn: ou=Inhuman resources, ou=Interplanetary exploration, dc=Trans-Urannic Outsourcing, dc=nodomain
+changetype: add
+objectClass: organizationalUnit
+ou:Inhuman resources 
+
+dn: ou=Environmental exploitation, ou=Inhuman resources, ou=Interplanetary exploration, dc=Trans-Urannic Outsourcing, dc=nodomain
+changetype: add
+objectClass: organizationalUnit
+ou:Environmental exploitation
+
+dn: ou=Environmental protection, ou=Environmental exploitation, ou=Inhuman resources, ou=Interplanetary exploration, dc=Trans-Urannic Outsourcing, dc=nodomain
+changetype: add
+objectClass: organizationalUnit
+ou:Environmental protection
+
+
+
+
+
+
+dn: dc=Trans-Urannic Developments, dc=nodomain
+dc: Trans-Urannic Developments
+objectClass: dcObject
+objectClass: organization
+o: Trans-Urannic Developments.
+
+dn: ou=Pest control, dc=Trans-Urannic Developments, dc=nodomain
+changetype: add
+objectClass: organizationalUnit
+ou:Pest control
+
+dn: ou=Manufacture, ou=Pest control , dc=Trans-Urannic Developments, dc=nodomain
+changetype: add
+objectClass: organizationalUnit
+ou:Manufacture
+
+dn: ou=Interior decoration, ou=Manufacture, ou=Pest control , dc=Trans-Urannic Developments, dc=nodomain
+changetype: add
+objectClass: organizationalUnit
+ou:Interior decoration
+
+
+
+dn: dc=Universal Outsourcing, dc=nodomain
+dc: Universal Outsourcing
+objectClass: dcObject
+objectClass: organization
+o: Universal Outsourcing
+
+
+dn: ou=Excessive hierarchy, dc=Universal Outsourcing, dc=nodomain
+changetype: add
+objectClass: organizationalUnit
+ou:Excessive hierarchy
+
+dn: ou=Marketing , ou=Excessive hierarchy, dc=Universal Outsourcing, dc=nodomain
+changetype: add
+objectClass: organizationalUnit
+ou:Marketing
+
+
+
+
+dn: cn=Francesca Jones, ou=Diabolical schemes, ou=Pest control, dc=Conglomerated Exports, dc=nodomain
+objectClass:inetOrgPerson
+cn:Francesca Jones
+sn:Jones
+
+
+
+
+
+

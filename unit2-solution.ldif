@@ -8,129 +8,531 @@ dc:nodomain
 
 
 
-dn: dc=Conglomerated Exports, dc=nodomain
-dc: Conglomerated Exports
+dn: dc= Jurassic Replicas, dc=nodomain
+dc: Jurassic Replicas 
 objectClass: dcObject
 objectClass: organization
-o: Conglomerated Exports.
+o: Jurassic Replicas.
 
-dn: ou=Pest control, dc=Conglomerated Exports, dc=nodomain
+dn: ou= Inhuman resources, dc= Jurassic Replicas, dc=nodomain
+objectClass: organizationalUnit
+ou: Inhuman resources
+
+dn: ou= market punctuation, ou= Inhuman resources, dc= Jurassic Replicas, dc=nodomain
+changetype: add
+objectClass: organizationalUnit
+ou: market punctuation
+
+
+
+
+
+
+dn: dc=Conglomerated Greeting Cards, dc=nodomain
+dc: Conglomerated Greeting Cards
+objectClass: dcObject
+objectClass: organization
+o: Conglomerated Greeting Cards.
+
+dn: ou=Pest control, dc=Conglomerated Greeting Cards, dc=nodomain
+changetype: add
 objectClass: organizationalUnit
 ou: Pest control
 
-dn: ou=Diabolical schemes, ou=Pest control, dc=Conglomerated Exports, dc=nodomain
+dn: ou=Consolidation, ou=Pest control, dc=Conglomerated Greeting Cards, dc=nodomain
 changetype: add
 objectClass: organizationalUnit
-ou: Diabolical schemes
+ou: Consolidation
+
+dn: ou=Embezzelment, ou=Consolidation, ou=Pest control, dc=Conglomerated Greeting Cards, dc=nodomain
+changetype: add
+objectClass: organizationalUnit
+ou: Embezzelment
+
+dn: ou=Environmental protection, ou=Embezzelment, ou=Consolidation, ou=Pest control, dc=Conglomerated Greeting Cards, dc=nodomain
+changetype: add
+objectClass: organizationalUnit
+ou: Environmental protection 
 
 
 
 
 
 
-dn: dc=Universal Resources, dc=nodomain
-dc: Universal Resources
+dn: dc=Integrated Resources, dc=nodomain
+dc: Integrated Resources
 objectClass: dcObject
 objectClass: organization
-o: Universal Resources.
+o: Integrated Resources.
 
-dn: ou=Interplanetary exploration,dc=Universal Resources, dc=nodomain
+
+dn: ou=Rhetorical devices, dc=Integrated Resources, dc=nodomain
 changetype: add
 objectClass: organizationalUnit
-ou: Interplanetary exploration
+ou:Rhetorical devices
 
-dn: ou=Environmental protection, ou=Interplanetary exploration, dc=Universal Resources, dc=nodomain
+dn: ou=Diabolical schemes, ou=Rhetorical devices, dc=Integrated Resources, dc=nodomain
 changetype: add
 objectClass: organizationalUnit
-ou: Environmental protection
+ou:Diabolical schemes 
 
 
-
-
-
-
-dn: dc=Trans-Urannic Outsourcing, dc=nodomain
-dc: Trans-Urannic Outsourcing
+dn: dc=Universal Commercial Bank, dc=nodomain
+dc: Universal Commercial Bank
 objectClass: dcObject
 objectClass: organization
-o: Trans-Urannic Outsourcing.
+o: Universal Commercial Bank.
+
+dn: ou=Accounting, dc=Universal Commercial Bank, dc=nodomain
+changetype: add
+objectClass: organizationalUnit
+ou:Accounting
+
+dn: ou=Inhuman resources, ou=Accounting, dc=Universal Commercial Bank, dc=nodomain
+changetype: add
+objectClass: organizationalUnit
+ou:Inhuman resources
 
 
-dn: ou=Interplanetary exploration, dc=Trans-Urannic Outsourcing, dc=nodomain
+dn: ou=Interplanetary exploration, ou=Inhuman resources, ou=Accounting, dc=Universal Commercial Bank, dc=nodomain
 changetype: add
 objectClass: organizationalUnit
 ou:Interplanetary exploration
 
 
-dn: ou=Inhuman resources, ou=Interplanetary exploration, dc=Trans-Urannic Outsourcing, dc=nodomain
-changetype: add
-objectClass: organizationalUnit
-ou:Inhuman resources 
-
-dn: ou=Environmental exploitation, ou=Inhuman resources, ou=Interplanetary exploration, dc=Trans-Urannic Outsourcing, dc=nodomain
-changetype: add
-objectClass: organizationalUnit
-ou:Environmental exploitation
-
-dn: ou=Environmental protection, ou=Environmental exploitation, ou=Inhuman resources, ou=Interplanetary exploration, dc=Trans-Urannic Outsourcing, dc=nodomain
-changetype: add
-objectClass: organizationalUnit
-ou:Environmental protection
 
 
 
-
-
-
-dn: dc=Trans-Urannic Developments, dc=nodomain
-dc: Trans-Urannic Developments
+dn: dc=Discreet Logistics, dc=nodomain
+dc: Discreet Logistics
 objectClass: dcObject
 objectClass: organization
-o: Trans-Urannic Developments.
+o: Discreet Logistics
 
-dn: ou=Pest control, dc=Trans-Urannic Developments, dc=nodomain
-changetype: add
-objectClass: organizationalUnit
-ou:Pest control
 
-dn: ou=Manufacture, ou=Pest control , dc=Trans-Urannic Developments, dc=nodomain
-changetype: add
-objectClass: organizationalUnit
-ou:Manufacture
-
-dn: ou=Interior decoration, ou=Manufacture, ou=Pest control , dc=Trans-Urannic Developments, dc=nodomain
+dn: ou= Interior decoration, dc= Discreet Logistics, dc=nodomain
 changetype: add
 objectClass: organizationalUnit
 ou:Interior decoration
 
-
-
-dn: dc=Universal Outsourcing, dc=nodomain
-dc: Universal Outsourcing
-objectClass: dcObject
-objectClass: organization
-o: Universal Outsourcing
-
-
-dn: ou=Excessive hierarchy, dc=Universal Outsourcing, dc=nodomain
+dn: ou= Finance, ou= Interior decoration, dc= Discreet Logistics, dc= nodomain
 changetype: add
 objectClass: organizationalUnit
-ou:Excessive hierarchy
+ou:Finance
 
-dn: ou=Marketing , ou=Excessive hierarchy, dc=Universal Outsourcing, dc=nodomain
+dn: ou= Manufacture, ou= Finance, ou= Interior decoration, dc= Discreet Logistics, dc= nodomain
+changetype: add
+objectClass: organizationalUnit
+ou:Manufacture
+
+
+dn: ou=Marketing, ou=Manufacture, ou=Finance, ou=Interior decoration, dc=Discreet Logistics, dc=nodomain
 changetype: add
 objectClass: organizationalUnit
 ou:Marketing
 
 
 
+dn: cn=Fiona Johnson,ou=Accounting, dc=Universal Commercial Bank, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Fiona Johnson
+sn: Johnson
+mail: fj0@jurassicreplicas.com.aq
+telephoneNumber: +672115053
+telephoneNumber: +672115123
+telephoneNumber: +672115298
+telephoneNumber: +672115984
 
-dn: cn=Francesca Jones, ou=Diabolical schemes, ou=Pest control, dc=Conglomerated Exports, dc=nodomain
-objectClass:inetOrgPerson
-cn:Francesca Jones
-sn:Jones
+
+dn: cn=Fleur Green,ou=Inhuman resources,ou=Accounting, dc=Universal Commercial Bank, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Fleur Green
+sn: Green
+mail: fleur5g5@conglomeratedgreetingcards.com.aq
+telephoneNumber: +672109822
+telephoneNumber: +672109006
+telephoneNumber: +672109749
+manager: cn=Fiona Johnson,ou=Johnson
 
 
+
+dn: cn=Murphey Taylor,ou=Consolidation,ou=Pest control, dc=Conglomerated Greeting Cards, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Murphey Taylor
+sn: Taylor
+mail: murphey7t6@Universalcommercialbank.com.aq
+
+
+dn: cn=Matthew Martin,ou=Finance,ou=Interior decoration, dc=Discreet Logistics, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Matthew Martin
+sn: Martin
+mail: mmartin@discreetlogistics.com.nf
+telephoneNumber: +672207976
+telephoneNumber: +672207941
+
+
+
+dn: cn=Morgan Davies,ou=Interplanetary exploration,ou=Inhuman resources,ou=Accounting, dc=Universal Commercial Bank, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Morgan Davies
+sn: Davies
+mail: morgan6d6@discreetlogistics.com.nf
+manager:cn=Fleur Green,ou=Green
+
+dn: cn=Mitchell Green,ou=Inhuman resources,ou=Accounting, dc=Universal Commercial Bank, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Mitchell Green
+sn: Green
+mail: mg5@jurassicreplicas.com.aq
+telephoneNumber: +672115675
+telephoneNumber: +672115829
+telephoneNumber: +672115007
+telephoneNumber: +672115973
+manager: cn=Morgan Davies,ou=Davies
+
+dn: cn=Fleur Lee,ou=Rhetorical devices, dc=Integrated Resources, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Fleur Lee
+sn: Lee
+mail: fleur5l3@conglomeratedgreetingcards.com.aq
+
+dn: cn=Magnus Walker,ou=Finance,ou=Interior decoration, dc=Discreet Logistics, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Magnus Walker
+sn: Walker
+mail: magnus.walker@conglomeratedgreetingcards.com.aq
+telephoneNumber: +672109706
+telephoneNumber: +672109515
+manager: cn=Magnus Walker,ou=Walker
+
+
+dn: cn=Micah Clarke,ou=Embezzelment, ou=Consolidation, ou=Pest control, dc=Conglomerated Greeting Cards, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Magnus Walker
+sn: Walker
+mail:micah.clarke@jurassicreplicas.com.aq
+telephoneNumber: +672115952
+telephoneNumber: +672115079
+telephoneNumber: +672115659
+telephoneNumber: +672115109
+manager: cn=Murphey Taylor,ou=Taylor
+
+dn: cn=Mario Wilson,ou=Inhuman resources, ou=Accounting, dc=Universal Commercial Bank, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Mario Wilson
+sn: Wilson
+mail: mario.wilson @jurassicreplicas.com.aq
+telephoneNumber: +672115793
+telephoneNumber: +672115184
+telephoneNumber: +672115737
+manager: cn=Mitchell Green,ou=Green
+
+
+dn: cn=Flora Thomas,ou=Environmental protection, ou=Embezzelment, ou=Consolidation, ou=Pest control, dc=Conglomerated Greeting Cards, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Flora Thomas
+sn: Thomas
+mail: fthomas@universalcommercialbank.com.aq
+manager: cn=Micah Clarke,ou=Clarke
+
+dn: cn=Flora Johnson,ou=Diabolical schemes, ou=Rhetorical devices, dc=Integrated Resources, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Flora Johnson
+sn: Johnson
+mail: fj11@universalcommercialbank.com.aq
+telephoneNumber: +672116202
+manager: cn=Fleur Lee,ou=Lee
+
+dn: cn=Fifi Wood,ou=Marketing, ou=Manufacture, ou=Finance, ou=Interior decoration, dc=Discreet Logistics, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Fifi Wood
+sn: Wood
+mail: fwood@jurassicreplicas.com.aq
+telephoneNumber: +672115396
+manager: cn=Magnus Walker,ou=Walker
+
+dn: cn=Freya Walker,ou=Rhetorical devices, dc=Integrated Resources, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Freya Walker
+sn: Walker
+mail: fw13@universalcommercialbank.com.aq
+telephoneNumber: +672116982
+telephoneNumber: +672116524
+manager: cn=Flora Johnson,ou=Johnson
+
+dn: cn=Frances James,ou=Interplanetary exploration, ou=Inhuman resources, ou=Accounting, dc=Universal Commercial Bank, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Frances James
+sn: James
+mail: fjames@jurassicreplicas.com.aq
+telephoneNumber: +672115021
+telephoneNumber: +672115412
+manager: cn=Fiona Johnson,ou=Johnson
+
+dn: cn=Flora Clarke,ou=Accounting, dc=Universal Commercial Bank, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Flora Clarke
+sn: Clarke
+mail: flora5c6@integratedresources.com.nz
+telephoneNumber: +6589846179
+manager: cn=Mitchell Green,ou=Green
+
+
+dn: cn=Frances White, ou=Interior decoration, dc=Discreet Logistics, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Frances White
+sn: White
+mail: fwhite@integratedresources.com.nz
+telephoneNumber: +6589846729
+telephoneNumber: +6589846739
+telephoneNumber: +6589846506
+manager: cn=Magnus Walker,ou=Walker
+
+
+dn: cn=Fay Evans, ou=Pest control, dc=Conglomerated Greeting Cards, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Fay Evans
+sn: Thomas
+mail: fevans@conglomeratedgreetingcards.com.aq
+telephoneNumber: +672109283
+telephoneNumber: +672109146
+manager: cn=Murphey Taylor,ou=Taylor
+
+
+
+dn: cn=Fay Lee, ou= Inhuman resources, dc= Jurassic Replicas, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Fay Lee
+sn: Lee
+mail: fl18@universalcommercialbank.com.aq
+telephoneNumber: +672116055
+telephoneNumber: +672116377
+telephoneNumber: +672116918
+telephoneNumber: +672116738
+
+
+dn: cn=Flora Davies, ou=Embezzelment, ou=Consolidation, ou=Pest control, dc=Conglomerated Greeting Cards, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Flora Davies
+sn: Davies
+mail: fdavies@conglomeratedgreetingcards.com.aq
+manager: cn=Flora Thomas,ou=Thomas
+
+
+dn: cn=Mario James, ou=Inhuman resources, ou=Accounting, dc=Universal Commercial Bank, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Mario James
+sn: James
+mail: mjames@universalcommercialbank.com.aq
+telephoneNumber: +672116980
+telephoneNumber: +672116567
+manager: cn=Frances James,ou=James
+
+
+dn: cn=Fifi Williams,ou=Diabolical schemes, ou=Rhetorical devices, dc=Integrated Resources, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Fifi Williams
+sn: Williams
+mail: fwilliams@jurassicreplicas.com.aq
+telephoneNumber: +672115533
+manager: cn=Fleur Lee,ou=Lee
+
+
+dn: cn=Mitchell Wood,ou=Interplanetary exploration,ou=Inhuman resources,ou=Accounting, dc=Universal Commercial Bank, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Mitchell Wood
+sn: Wood
+mail: mw22@conglomeratedgreetingcards.com.aq
+telephoneNumber: +672109227
+telephoneNumber: +672109339
+telephoneNumber: +672109872
+telephoneNumber: +672109965
+manager:cn=Fleur Green,ou=Green
+
+
+dn: cn=Freda White, ou=Interior decoration, dc=Discreet Logistics, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Frances White
+sn: White
+mail: fw23@integratedresources.com.nz
+manager: cn=Fifi Wood,ou=Wood
+
+
+dn: cn=Francesca Wilson, ou= Inhuman resources, dc= Jurassic Replicas, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Francesca Wilson
+sn: Wilson
+mail: fw24@jurassicreplicas.com.aq
+telephoneNumber: +672115561
+telephoneNumber: +672115775
+telephoneNumber: +672115979
+manager: cn=Fleur Lee,ou=Lee
+
+
+dn: cn=Mitchell Cooper,ou=Rhetorical devices, dc=Integrated Resources, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Mitchell Cooper
+sn: Cooper
+mail: mitchell.cooper @conglomeratedgreetingcards.com.aq
+telephoneNumber: +672109209
+manager: cn=Flora Johnson,ou=Johnson
+
+dn: cn=Matthew Davies, ou=Pest control, dc=Conglomerated Greeting Cards, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Matthew Davies
+sn: Thomas
+mail: md26@conglomeratedgreetingcards.com.aq
+telephoneNumber: +672109722
+telephoneNumber: +672109925
+telephoneNumber: +672109465
+manager: cn=Fay Evans,ou=Evans
+
+dn: cn=Mario Harris,ou=Inhuman resources,ou=Accounting, dc=Universal Commercial Bank, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Mario Harris
+sn: Harris
+mail: mario.harris@universalcommercialbank.com.aq
+telephoneNumber: +672116014
+telephoneNumber: +672116689
+telephoneNumber: +672116237
+telephoneNumber: +672116222
+manager: cn=Francesca Wilson,ou=Wilson
+
+dn: cn=Fifi Roberts, ou=Embezzelment, ou=Consolidation, ou=Pest control, dc=Conglomerated Greeting Cards, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Fifi Roberts
+sn: Roberts
+mail: froberts@jurassicreplicas.com
+manager: cn=Murphey Taylor,ou=Taylor
+
+dn: cn=Matthew Thompson, ou=Consolidation, ou=Pest control, dc=Conglomerated Greeting Cards, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Matthew Thompson
+sn: Thompson
+mail: mt29@discreetlogistics.com.nf
+manager: cn=Flora Davies,ou=Davies
+
+dn: cn=Mario Johnson, ou= market punctuation, ou= Inhuman resources, dc= Jurassic Replicas, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Mario Johnson
+sn: Johnson
+mail: mjohnson@conglomeratedgreetingcards.com.aq
+telephoneNumber: +672109318
+telephoneNumber: +672109776
+telephoneNumber: +672109440
+manager: cn=Mario Harris,ou=Harris
+
+dn: cn=Flora Jones, ou= Inhuman resources, dc= Jurassic Replicas, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Mario Johnson
+sn: Johnson
+mail: flora.jones@universalcommercialbank.com.aq
+manager: cn=Mario Harris,ou=Harris
+
+dn: cn=Morgan Thompson, ou=Interior decoration, dc=Discreet Logistics, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Morgan Thompson
+sn: Thompson
+mail: mthompson@integratedresources.com.nz
+telephoneNumber: +6589846750
+manager: cn=Frances White,ou=White
+
+dn: cn=Mark King,ou=Inhuman resources,ou=Accounting, dc=Universal Commercial Bank, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Mark King
+sn: King
+mail: mark4k4@discreetlogistics.com.nf
+telephoneNumber: +672207036
+telephoneNumber: +672207282
+telephoneNumber: +672207436
+manager: cn=Flora Clarke,ou=Clarke
+
+dn: cn=Fiona Harris,ou=Environmental protection, ou=Embezzelment, ou=Consolidation, ou=Pest control, dc=Conglomerated Greeting Cards, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Fiona Harris
+sn: Harris
+mail: fiona5h6@jurassicreplicas.com.aq
+manager: cn=Flora Davies,ou=Davies
+
+dn: cn=Morgan Wilson,ou=Finance,ou=Interior decoration, dc=Discreet Logistics, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Morgan Wilson
+sn: Wilson
+mail: mw35@conglomeratedgreetingcards.com.aq
+telephoneNumber: +672109758
+manager: cn=Fifi Wood,ou=Wood
+
+dn: cn=Freda Wilson, ou=Manufacture, ou=Finance, ou=Interior decoration, dc=Discreet Logistics, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Freda Wilson
+sn: Wilson
+mail: freda5w6@jurassicreplicas.com.aq
+telephoneNumber: +672115578
+telephoneNumber: +672115325
+telephoneNumber: +672115181
+manager: cn=Morgan Thompson,ou=Thompson
+
+dn: cn=Martin Watson,ou=Accounting, dc=Universal Commercial Bank, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Martin Watson
+sn: Watson
+mail: martin.watson@integratedresources.com.nz
+manager: cn=Fleur Green,ou=Green
+
+dn: cn=Mario Cooper,ou=Diabolical schemes, ou=Rhetorical devices, dc=Integrated Resources, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Mario Cooper
+sn: Cooper
+mail: mcooper@discreetlogistics.com.nf
+manager: cn=Fifi Williams,ou=Williams
+
+dn: cn=Micah Thompson, ou=Manufacture, ou=Finance, ou=Interior decoration, dc=Discreet Logistics, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Micah Thompson
+sn: Thompson
+mail: mthompson@discreetlogistics.com.nf
+manager: cn=Magnus Walker,ou=Walker
 
 
 

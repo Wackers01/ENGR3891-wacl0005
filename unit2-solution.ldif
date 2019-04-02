@@ -535,5 +535,79 @@ mail: mthompson@discreetlogistics.com.nf
 manager: cn=Magnus Walker,ou=Walker
 
 
+dn: cn=Martin Roberts, ou= market punctuation, ou= Inhuman resources, dc= Jurassic Replicas, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Martin Roberts
+sn: Roberts
+mail: mroberts@discreetlogistics.com.nf
+manager: cn=Mario Harris,ou=Harris
+
+
+
+dn: cn=Murphey Evans,ou=Interplanetary exploration,ou=Inhuman resources,ou=Accounting, dc=Universal Commercial Bank, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Murphey Evans
+sn: Evans
+mail: murphey.evans@jurassicreplicas.com.aq
+manager:cn=Fiona Johnson,ou=Johnson
+
+dn: cn=Mark Jackson, ou=Interior decoration, dc=Discreet Logistics, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Mark Jackson
+sn: Jackson
+mail: mj42@universalcommercialbank.com.aq
+manager: cn=Matthew Martin,ou=Martin
+
+dn: cn=Fay James,ou=Interplanetary exploration,ou=Inhuman resources,ou=Accounting, dc=Universal Commercial Bank, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Fay James
+sn: James
+mail: fjames@universalcommercialbank.com.aq
+telephoneNumber: +672116899
+telephoneNumber: +672116108
+telephoneNumber: +672116749
+telephoneNumber: +672116357
+manager:cn=Mario James,ou=James
+
+dn: cn=Martin Smith, ou= market punctuation, ou= Inhuman resources, dc= Jurassic Replicas, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Martin Smith
+sn: Smith
+mail: martin.smith@integratedresources.com.nz
+telephoneNumber: +6589846269
+telephoneNumber: +6589846815
+manager: cn=Fay Lee,ou=Lee
+
+dn: cn=Frances Williams, ou=Interior decoration, dc=Discreet Logistics, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Frances Williams
+sn: Williams
+mail: frances.williams@integratedresources.com.nz
+manager: cn=Matthew Martin,ou=Martin
+
+dn: cn=Fifi Green,ou=Diabolical schemes, ou=Rhetorical devices, dc=Integrated Resources, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Fifi Green
+sn: Green
+mail: fifi4g5@discreetlogistics.com.nf
+manager: cn=Freya Walker,ou=Walker
+
+dn: cn=Murphey Martin, ou=Consolidation, ou=Pest control, dc=Conglomerated Greeting Cards, dc=nodomain
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+cn: Murphey Martin
+sn: Martin
+mail: mm47@discreetlogistics.com.nf
+telephoneNumber: +672207643
+telephoneNumber: +672207336
+manager: cn=Murphey Taylor,ou=Taylor
+
 
 

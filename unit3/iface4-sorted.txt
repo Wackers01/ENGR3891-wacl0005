@@ -1,0 +1,29 @@
+
+
+
+
+
+
+
+
+
+
+	address 111.97.84.241/30
+	address 85.213.212.69/24
+	address 90.228.92.131/4
+	hwaddress 72:F8:01:1D:62:07
+	hwaddress E5:B0:8E:41:5E:E8
+	hwaddress EC:8C:05:1D:A0:8D
+iface 111.97.84.241 inet static
+iface 85.213.212.69 inet static inherits moths1
+iface 90.228.92.131 inet static
+iface castle2 inet
+iface eth0 inet inherits wealth0
+iface ftdi1 inet
+iface ftdi2 inet inherits moths1
+iface moths1 inet
+iface wealth0 inet
+iface wlan5 inet inherits moths1
+	mtu 1939
+	mtu 1970
+	mtu 6275

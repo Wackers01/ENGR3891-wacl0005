@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+
+	address 104.112.28.11/10
+	address 22.25.103.176/21
+	address 61.171.49.230/17
+	address 90.120.199.225/25
+	hwaddress 32:B7:8F:1E:1C:6C
+	hwaddress A0:B6:57:AD:7E:CD
+iface 104.112.28.11 inet static inherits ruins1
+iface 22.25.103.176 inet static inherits ruins1
+iface 61.171.49.230 inet static inherits ruins1
+iface 90.120.199.225 inet static inherits ruins1
+iface castle0 inet
+iface eth4 inet inherits castle0
+iface jam0 inet inherits castle0
+iface ruins1 inet
+iface wlan5 inet inherits ruins1
+	mtu 2646
+	mtu 3007

@@ -1,0 +1,37 @@
+
+
+
+
+
+
+
+
+
+
+
+
+	address 19.22.113.38/23
+	address 65.29.167.12/7
+	address 85.240.78.195/21
+	hwaddress 32:C6:C4:84:A7:72
+	hwaddress 3A:12:58:4B:4D:D8
+	hwaddress 65:5A:70:12:52:E1
+	hwaddress C9:7F:AC:65:29:14
+	hwaddress F1:15:49:D2:DB:8B
+iface 19.22.113.38 inet static
+iface 65.29.167.12 inet static inherits wealth0
+iface 85.240.78.195 inet static inherits wealth0
+iface castle1 inet
+iface castle2 inet
+iface castle4 inet
+iface eth1 inet
+iface eth6 inet
+iface wealth0 inet
+iface wealth3 inet
+iface wlan0 inet
+iface wlan2 inet inherits castle2
+	mtu 3006
+	mtu 4211
+	mtu 6585
+	mtu 6782
+	mtu 6939

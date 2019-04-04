@@ -15,9 +15,9 @@ fi
 /sbin/ifconfig | grep ether >unit3/local.eth
 localmacs=`cat unit3/local.eth | wc -l`
 # Confirm local address gets same
-ssh gardners@${local} /sbin/ifconfig | grep ether > unit3/localssh.eth
+ssh ${local} /sbin/ifconfig | grep ether > unit3/localssh.eth
 localsshmacs=`cat unit3/localssh.eth | wc -l`
-ssh gardners@${remote} /sbin/ifconfig | grep ether > unit3/remote.eth
+ssh ${remote} /sbin/ifconfig | grep ether > unit3/remote.eth
 remotemacs=`cat unit3/remote.eth | wc -l`
 if [ "$localmacs" -lt 2 ]; then
   echo "ERROR: I couldn't see at least two network interfaces on this virtual machine"

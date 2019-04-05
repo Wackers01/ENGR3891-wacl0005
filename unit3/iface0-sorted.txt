@@ -1,0 +1,23 @@
+
+
+
+
+
+
+
+	address 107.230.201.156/9
+	hwaddress 04:DF:F7:50:45:6D
+	hwaddress 62:2D:0F:FA:2A:DA
+	hwaddress B5:D8:15:2C:2B:75
+	hwaddress F7:71:9C:07:E7:D1
+iface 107.230.201.156 inet static inherits castle1
+iface castle1 inet
+iface jam2 inet inherits castle1
+iface ruins0 inet
+iface ruins3 inet
+iface wealth2 inet
+iface wlan1 inet
+	mtu 1004
+	mtu 2954
+	mtu 3129
+	mtu 3453

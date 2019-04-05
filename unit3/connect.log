@@ -1,0 +1,7 @@
+VM1
+        ether 08:00:27:21:cc:05  txqueuelen 1000  (Ethernet)
+        ether 08:00:27:ad:aa:d1  txqueuelen 1000  (Ethernet)
+        ether 08:00:27:5e:61:40  txqueuelen 1000  (Ethernet)
+VM2
+        ether 08:00:27:f8:7a:4a  txqueuelen 1000  (Ethernet)
+        ether 08:00:27:4c:ce:99  txqueuelen 1000  (Ethernet)

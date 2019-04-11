@@ -13,7 +13,7 @@ sudo apt-get -y install slapd ldap-utils
 ldapadd -c -x -D cn=admin,dc=nodomain -w root -f $1
 # Search LDAP database to get all entities
 ldapsearch -o ldif-wrap=no -x -LLL -H ldap:/// -b dc=nodomain \* > entity.log
-sort -s entity.log > entity.sort
+sort -s entity.log | egrep -v "cn::" > entity.sort
 sort -s unit2-entity-check.txt > check.sort
 shasum -a 512 < entity.log | cut -f1 -d" " > entity.sha512
 linesdifferent=`diff check.sort entity.sort | wc -l`

@@ -1,25 +1,22 @@
-
-iface ruins0 inet static
+iface ruins0 inet
 	mtu 1004
 	hwaddress B5:D8:15:2C:2B:75
 
-iface castle1 inet static
+iface castle1 inet
 	mtu 2954
 	hwaddress 04:DF:F7:50:45:6D
 
-iface wealth2 inet static
+iface wealth2 inet
 	mtu 3453
 	hwaddress 62:2D:0F:FA:2A:DA
 
-iface ruins3 inet static
+iface ruins3 inet
 	mtu 3129
 	hwaddress F7:71:9C:07:E7:D1
 
-iface eth0 inet static inherits castle1
-	address  107.230.201.156/9
+iface 107.230.201.156 inet static inherits castle1
+	address 107.230.201.156/9
 
-iface wlan1 inet dhcp
+iface wlan1 inet
 
-
-iface jam2 inet dhcp inherits castle1
-	
+iface jam2 inet inherits castle1

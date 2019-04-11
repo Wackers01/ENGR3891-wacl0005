@@ -1,4 +1,4 @@
-iface wealth0 inet 
+iface wealth0 inet
 	mtu 4211
 	hwaddress 65:5A:70:12:52:E1
 
@@ -18,18 +18,19 @@ iface castle4 inet
 	mtu 6782
 	hwaddress 32:C6:C4:84:A7:72
 
+iface wlan0 inet
 
-iface wlan0 inet dhcp
+iface eth1 inet
 
-iface eth1 inet dhcp
+iface wlan2 inet inherits castle2
 
-iface wlan2 inet dhcp inherits castle2
-
-iface eth3 static inet
+iface 19.22.113.38 inet static
 	address 19.22.113.38/23
 
-iface ftdi4 static inet inherits wealth0
+iface 65.29.167.12 inet static inherits wealth0
 	address 65.29.167.12/7
 
-iface eth5 static inet inherits wealth0
+iface 85.240.78.195 inet static inherits wealth0
 	address 85.240.78.195/21
+
+iface eth6 inet

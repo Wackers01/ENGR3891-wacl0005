@@ -1,27 +1,28 @@
-#!/bin/bash
-mkdir -p -m 775 unit1exercise1
-mkdir -p -m 775 unit1exercise1/verwitztest
-mkdir -p -m 775 unit1exercise1/angehaltheit
-mkdir -p -m 775 unit1exercise1/anwitzkeit
-mkdir -p -m 775 unit1exercise1/getrauheit
-mkdir -p -m 775 unit1exercise1/angerauchheit
-mkdir -p -m 775 unit1exercise1/angerauchtete
-mkdir -p -m 775 unit1exercise1/auswitztest
-mkdir -p -m 775 unit1exercise1/ankatzeen
+#!/bin/sh
+alias m="mkdir -p -m"
+m 775 unit1exercise1
+m 775 unit1exercise1/verwitztest
+m 775 unit1exercise1/angehaltheit
+m 775 unit1exercise1/anwitzkeit
+m 775 unit1exercise1/getrauheit
+m 775 unit1exercise1/angerauchheit
+m 775 unit1exercise1/angerauchtete
+m 775 unit1exercise1/auswitztest
+m 775 unit1exercise1/ankatzeen
 
-mkdir -p -m 775 unit1exercise1/auswitztest/aufgekatzet
-mkdir -p -m 775 unit1exercise1/angerauchtete/aufgesprachtete
-mkdir -p -m 775 unit1exercise1/angehaltheit/aufgestehte
-mkdir -p -m 775 unit1exercise1/ankatzeen/zerrennen
-mkdir -p -m 775 unit1exercise1/angehaltheit/ausgesetzer
+m 775 unit1exercise1/auswitztest/aufgekatzet
+m 775 unit1exercise1/angerauchtete/aufgesprachtete
+m 775 unit1exercise1/angehaltheit/aufgestehte
+m  775 unit1exercise1/ankatzeen/zerrennen
+m 775 unit1exercise1/angehaltheit/ausgesetzer
 
-mkdir -p -m 144 unit1exercise1/ankatzeen/zerrennen/angestehheit
-mkdir -p -m 565 unit1exercise1/angehaltheit/ausgesetzer/ausgefahrt
-mkdir -p -m 611 unit1exercise1/angerauchtete/aufgesprachtete/zersitzkeit
-mkdir -p -m 311 unit1exercise1/angehaltheit/aufgestehte/angeschmeckheit
-mkdir -p -m 312 unit1exercise1/ankatzeen/zerrennen/angegehtest
-mkdir -p -m 313 unit1exercise1/angehaltheit/aufgestehte/behaltkeit
-mkdir -p -m 621 unit1exercise1/angehaltheit/aufgestehte/gekaesung
+m 144 unit1exercise1/ankatzeen/zerrennen/angestehheit
+m 565 unit1exercise1/angehaltheit/ausgesetzer/ausgefahrt
+m 611 unit1exercise1/angerauchtete/aufgesprachtete/zersitzkeit
+m 311 unit1exercise1/angehaltheit/aufgestehte/angeschmeckheit
+m 312 unit1exercise1/ankatzeen/zerrennen/angegehtest
+m 313 unit1exercise1/angehaltheit/aufgestehte/behaltkeit
+m 621 unit1exercise1/angehaltheit/aufgestehte/gekaesung
 
 sudo chmod -c 421 unit1exercise1/auswitztest/aufgekatzet
 sudo chmod -c 241 unit1exercise1/angerauchtete/aufgesprachtete

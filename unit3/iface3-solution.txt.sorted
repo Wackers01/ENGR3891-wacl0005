@@ -1,0 +1,32 @@
+
+
+
+
+
+
+
+
+
+
+	address 10.190.214.80/10
+	address 32.152.161.64/20
+	address 42.170.220.237/30
+	hwaddress 08:94:20:59:9F:4A
+	hwaddress 86:DE:2D:C1:4D:45
+	hwaddress A2:31:73:02:20:54
+	hwaddress B9:C7:2D:DE:20:F2
+iface 10.190.214.80 inet static inherits castle2
+iface 32.152.161.64 inet static
+iface 42.170.220.237 inet static
+iface castle1 inet
+iface castle2 inet
+iface eth2 inet inherits castle2
+iface eth4 inet
+iface ftdi0 inet
+iface jam5 inet
+iface moths3 inet
+iface wealth0 inet
+	mtu 2298
+	mtu 3628
+	mtu 7730
+	mtu 8034

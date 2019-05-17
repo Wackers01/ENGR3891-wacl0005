@@ -1,11 +1,11 @@
-Correctness points: 0
+Correctness points: 60
+Size points: 15
+Correctness points: 60
 Size points: 0
-Correctness points: 0
+Correctness points: 27
 Size points: 0
-Correctness points: 0
-Size points: 0
-Correctness points: 0
+Correctness points: 27
 Size points: 0
 usage: comparevectors <v1> <v2>
-TOTAL: 0 %
+TOTAL: 37.8 %
 NOTE: The figures above are based on the work submitted at this point in time.  It does not take into account any late penalties. Nor does is stop you from submitting an updated version. It is simply an automatically generated summary of the raw score that your current work has obtained.

@@ -1,0 +1,72 @@
+6a7
+> 
+11a12
+> 
+8a9
+> 
+10a11
+> 
+9a10
+> 
+Incorrect answer for question 60 in 'unit3/answers.txt'
+Incorrect answer for question 61 in 'unit3/answers.txt'
+Incorrect answer for question 62 in 'unit3/answers.txt'
+Incorrect answer for question 63 in 'unit3/answers.txt'
+Incorrect answer for question 64 in 'unit3/answers.txt'
+Incorrect answer for question 65 in 'unit3/answers.txt'
+Incorrect answer for question 66 in 'unit3/answers.txt'
+Incorrect answer for question 67 in 'unit3/answers.txt'
+Incorrect answer for question 68 in 'unit3/answers.txt'
+Incorrect answer for question 69 in 'unit3/answers.txt'
+Incorrect answer for question 70 in 'unit3/answers.txt'
+Incorrect answer for question 71 in 'unit3/answers.txt'
+Incorrect answer for question 72 in 'unit3/answers.txt'
+Incorrect answer for question 73 in 'unit3/answers.txt'
+Incorrect answer for question 74 in 'unit3/answers.txt'
+Incorrect answer for question 75 in 'unit3/answers.txt'
+Incorrect answer for question 76 in 'unit3/answers.txt'
+Incorrect answer for question 77 in 'unit3/answers.txt'
+Incorrect answer for question 78 in 'unit3/answers.txt'
+Incorrect answer for question 79 in 'unit3/answers.txt'
+300/400 after HASH:unit3/answers.txt:unit3/check.txt
+Diff output has 2 lines different:
+Answer file 'unit3/iface0-solution.txt' has incorrect hash -- something is not exactly correct.
+368/500 after SORT:unit3/iface0-solution.txt:unit3/iface0-sorted.txt:unit3/iface0-hash.txt
+Diff output has 2 lines different:
+Answer file 'unit3/iface1-solution.txt' has incorrect hash -- something is not exactly correct.
+438/600 after SORT:unit3/iface1-solution.txt:unit3/iface1-sorted.txt:unit3/iface1-hash.txt
+Diff output has 2 lines different:
+Answer file 'unit3/iface2-solution.txt' has incorrect hash -- something is not exactly correct.
+507/700 after SORT:unit3/iface2-solution.txt:unit3/iface2-sorted.txt:unit3/iface2-hash.txt
+Diff output has 2 lines different:
+Answer file 'unit3/iface3-solution.txt' has incorrect hash -- something is not exactly correct.
+577/800 after SORT:unit3/iface3-solution.txt:unit3/iface3-sorted.txt:unit3/iface3-hash.txt
+Diff output has 2 lines different:
+Answer file 'unit3/iface4-solution.txt' has incorrect hash -- something is not exactly correct.
+646/900 after SORT:unit3/iface4-solution.txt:unit3/iface4-sorted.txt:unit3/iface4-hash.txt
+No entry '16.104.88.0     10.1.1.2        255.255.255.0   ' in file 'unit3/routetable0add.log'
+No entry '126.210.104.0   10.1.1.2        255.255.248.0   ' in file 'unit3/routetable0add.log'
+2 entries in route table were wrong.
+662/925 after MATCH:+unit3/routes0.txt:unit3/routetable0add.log
+687/950 after MATCH:-unit3/routes0.txt:unit3/routetable0del.log
+712/975 after MATCH:+unit3/routes1.txt:unit3/routetable1add.log
+737/1000 after MATCH:-unit3/routes1.txt:unit3/routetable1del.log
+No entry '65.23.209.48    10.1.1.2        255.255.255.248 ' in file 'unit3/routetable2add.log'
+No entry '40.167.130.128  10.1.1.2        255.255.255.128 ' in file 'unit3/routetable2add.log'
+2 entries in route table were wrong.
+753/1025 after MATCH:+unit3/routes2.txt:unit3/routetable2add.log
+778/1050 after MATCH:-unit3/routes2.txt:unit3/routetable2del.log
+No entry '60.50.76.24     10.1.1.2        255.255.255.254 ' in file 'unit3/routetable3add.log'
+No entry '123.62.159.184  10.1.1.2        255.255.255.248 ' in file 'unit3/routetable3add.log'
+No entry '104.78.128.0    10.1.1.2        255.255.128.0   ' in file 'unit3/routetable3add.log'
+3 entries in route table were wrong.
+790/1075 after MATCH:+unit3/routes3.txt:unit3/routetable3add.log
+815/1100 after MATCH:-unit3/routes3.txt:unit3/routetable3del.log
+No entry '78.168.75.64    10.1.1.2        255.255.255.192 ' in file 'unit3/routetable4add.log'
+No entry '12.83.240.0     10.1.1.2        255.255.240.0   ' in file 'unit3/routetable4add.log'
+2 entries in route table were wrong.
+831/1125 after MATCH:+unit3/routes4.txt:unit3/routetable4add.log
+856/1150 after MATCH:-unit3/routes4.txt:unit3/routetable4del.log
+SUMMARY:856/1150
+TOTAL:74
+NOTE: The figures above are based on the work submitted at this point in time.  It does not take into account any late penalties. Nor does is stop you from submitting an updated version. It is simply an automatically generated summary of the raw score that your current work has obtained.

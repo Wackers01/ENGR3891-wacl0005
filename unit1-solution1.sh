@@ -1,5 +1,7 @@
 #!/bin/sh
 alias m="mkdir -p -m"
+alias cs="sudo chmod -c"
+alias c="chmod -c"
 m 775 unit1exercise1
 m 775 unit1exercise1/verwitztest
 m 775 unit1exercise1/angehaltheit
@@ -24,20 +26,20 @@ m 312 unit1exercise1/ankatzeen/zerrennen/angegehtest
 m 313 unit1exercise1/angehaltheit/aufgestehte/behaltkeit
 m 621 unit1exercise1/angehaltheit/aufgestehte/gekaesung
 
-sudo chmod -c 421 unit1exercise1/auswitztest/aufgekatzet
-sudo chmod -c 241 unit1exercise1/angerauchtete/aufgesprachtete
-sudo chmod -c 330 unit1exercise1/angehaltheit/aufgestehte
-sudo chmod -c 175 unit1exercise1/ankatzeen/zerrennen
-sudo chmod -c 414 unit1exercise1/angehaltheit/ausgesetzer
+cs 421 unit1exercise1/auswitztest/aufgekatzet
+cs 241 unit1exercise1/angerauchtete/aufgesprachtete
+cs 330 unit1exercise1/angehaltheit/aufgestehte
+cs 175 unit1exercise1/ankatzeen/zerrennen
+cs 414 unit1exercise1/angehaltheit/ausgesetzer
 
-chmod -c 370 unit1exercise1/verwitztest
-chmod -c 054 unit1exercise1/angehaltheit
-chmod -c 034 unit1exercise1/anwitzkeit
-chmod -c 614 unit1exercise1/getrauheit
-chmod -c 040 unit1exercise1/angerauchheit
-chmod -c 372 unit1exercise1/angerauchtete
-chmod -c 562 unit1exercise1/auswitztest
-chmod -c 311 unit1exercise1/ankatzeen
+c 370 unit1exercise1/verwitztest
+c 054 unit1exercise1/angehaltheit
+c 034 unit1exercise1/anwitzkeit
+c 614 unit1exercise1/getrauheit
+c 040 unit1exercise1/angerauchheit
+c 372 unit1exercise1/angerauchtete
+c 562 unit1exercise1/auswitztest
+c 311 unit1exercise1/ankatzeen
 
 
 sudo tar -cvzf unit1-solution1.tgz unit1exercise1

@@ -21,7 +21,7 @@ sudo git checkout development
 sudo git pull
 
 #Leave Git directory
-cd ..
+cd ../
 
 #Clone fpgajtag
 sudo git clone https://github.com/cambridgehackers/fpgajtag.git
@@ -54,8 +54,8 @@ cd ~/Documents/MEGA65/cbmconvert
 make -f Makefile.unix
 sudo make install
 
-# Install Xilinx 14.7
-cd Xilinx_ISE_DS_14.7_1015_1.tar ~/Documents/
+# Install Xilinx 14.7 assuming the file has been downloaded
+cd Xilinx_ISE_DS_14.7_1015_1.tar
 cd ~/Documents
 tar xvf Xilinx_ISE_DS_14.7_1015_1.tar
 cd ~/Documents/Xilinx_ISE_DS_14.7_1015_1

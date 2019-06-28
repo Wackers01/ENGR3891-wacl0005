@@ -58,7 +58,7 @@
 57:121.192.0.0/10
 58:0.90.0.0/15
 59:0.0.0.0/1
-60:ip link set eth0 up; ip address add 9.149.200.206 dev eth0; ip address add 0.0.0.0/1 dev eth0; ip link set dev eth0 arp off; ip link set dev eth0 txqueuelen 3920
+60:ip address add 9.149.200.206 dev eth0; ip address add 0.0.0.0/1 dev eth0; ip link set dev eth0 arp off; ip link set dev eth0 txqueuelen 3920
 61:ifconfig eth0 87.231.55.240 netmask 255.0.0.0 -broadcast 87.231.55.0/24;dstaddr 68.237.110.161; ifconfig eth0 txqueuelen 1823
 
 

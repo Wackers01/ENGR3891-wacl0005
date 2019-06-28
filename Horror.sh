@@ -1,9 +1,8 @@
 #!/bin/bash
 
 #This is the script for The Horror, A Text-based Adventure game with a simple premise, get as far as possible & reach the end
-
-
-#These are the locations of the player at each point, each act adds to the Array to move through the array
+#These are the locations of the player at each point, each Room adds to the Array to move through the game
+#If you want to progress back to a previous location you have to subtract from the current possition
 # Go North
 ACT_north()
 {
@@ -78,35 +77,35 @@ ACT_surrender()
 {
   Room=$(($Room + 1))
 }
-
+#Slap $ Continue game
 ACT_slap()
 {
   Room=$(($Room + 2))
 }
-
+#Go up lader & Die
 ACT_ladder()
 {
   Room=$(($Room + 1))
 }
-
+#Go to Gateway
 ACT_gateway()
 {
   Room=$(($Room + 2))
 }
 
-
+#Go Back 10 rooms
 ACT_Door()
 {
   Room=$(($Room - 10))
 }
 
-
+#Death
 ACT_lock()
 {
   Room=$(($Room + 1))
 }
 
-
+#End Game
 ACT_break()
 {
   Room=$(($Room + 2))
@@ -164,7 +163,7 @@ while [ true ]; do
   if [ -z "$LEGAL_ACTS" ]; then
     break
   fi
-  #Read the avaible actions from the location and get the user to input one of hte legal acts
+  #Read the avaible actions from the location and get the user to input one of the legal acts
   echo "Hint - Available actions:"
   while read -r Room_ACT; do
     echo -e "\t${Room_ACT}  ${ACT[$Room_ACT]}"

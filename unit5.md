@@ -2,6 +2,7 @@
 #Create ifconfig in both virtual machines\n
 
 #1st VM
+
 sudo ifconfig enp0s8 10.1.1.1 netmask 255.255.255.0
 
 #2nd VM
